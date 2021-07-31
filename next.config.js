@@ -6,7 +6,6 @@ module.exports = withPWA(
   withTM({
     pwa: {
       dest: 'public',
-      sw: 'service-worker.js',
       publicExcludes: [
         '!locales',
         '!unused-locales',
